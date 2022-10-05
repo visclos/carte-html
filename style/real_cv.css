@@ -1,6 +1,11 @@
 
 
 
+.bw{
+  filter:saturate(0) contrast(50);
+}
+
+
 body
 {
   /*background-image: url(../images/background.jpeg);*/
@@ -11,7 +16,7 @@ body
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
-  height: 100vh;
+  height: 200vh;
   
 
    
@@ -46,7 +51,7 @@ body
   padding:10px;
 }
 
-.container{
+.myContainer{
   background-color:rgba(254,254,254,1);
   border: 1px solid black;
   width:80%;
