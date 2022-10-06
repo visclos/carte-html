@@ -21,10 +21,10 @@ body
 
    
 
-    /* Marge intérieure de 12px */
+    
     
     text-align: justify;
-/* Marge exterieur de 500px */
+
 }
 
 
@@ -54,8 +54,8 @@ body
 .myContainer{
   background-color:rgba(254,254,254,1);
   border: 1px solid black;
-  width:80%;
-  margin-left:10%;
+  width:60%;
+  margin-left:20%;
   
 }
 
