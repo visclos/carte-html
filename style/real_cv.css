@@ -63,8 +63,8 @@ body
   padding:20px;
 }
 
-p{
-  @font-face:"milkCoffe";
-}
 
-h1{text-align: center;}
+html { scroll-behavior: smooth; } 
+
+h1{text-align: center;
+  font-size: 1.2em;}
