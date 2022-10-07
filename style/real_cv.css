@@ -68,3 +68,7 @@ html { scroll-behavior: smooth; }
 
 h1{text-align: center;
   font-size: 1.2em;}
+
+  h2{
+    text-indent: 30%;
+  }
