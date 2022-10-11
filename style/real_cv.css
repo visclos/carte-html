@@ -58,7 +58,7 @@ body
   margin-left:20%;
   
 }
-.navbar-brand{text-align: center}
+.navbar-brand{margin: auto}
 
 .contenu{
   padding:20px;
