@@ -67,8 +67,11 @@ body
 html { scroll-behavior: smooth; } 
 
 h1{text-align: center;
-  font-size: 1.2em;}
+  font-size: 2em;}
 
   h2{
     text-indent: 30%;
+  }
+  h5{
+    text-align: center;
   }
