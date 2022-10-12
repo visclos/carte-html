@@ -13,9 +13,18 @@ body {
   text-align: justify;
 }
 
-.center60 {
-  width: 60%;
-  margin-left: 20%;
+@media all and (orientation: portrait) {
+  .center60 {
+    width: 100%;
+    margin-left: 0%;
+  }
+}
+
+@media all and (orientation: landscape) {
+  .center60 {
+    width: 60%;
+    margin-left: 20%;
+  }
 }
 
 @keyframes gradient {
@@ -41,7 +50,7 @@ body {
   padding: 10px;
 }
 
-.blackBackground{
+.blackBackground {
   background-color: black;
 }
 
