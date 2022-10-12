@@ -13,13 +13,13 @@ body {
   text-align: justify;
 }
 
-@media all and (orientation: portrait) {
+@media handheld {
   .center60 {
     width: 100%
   }
 }
 
-@media all and (orientation: landscape) {
+@media screen and (orientation: landscape) {
   .center60 {
     width: 60%;
     margin-left: 20%;
