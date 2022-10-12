@@ -13,13 +13,13 @@ body {
   text-align: justify;
 }
 
-@media handheld {
+@media all and (orientation:portrait) {
   .center60 {
     width: 100%
   }
 }
 
-@media screen and (orientation: landscape) {
+@media all and (orientation:landscape) {
   .center60 {
     width: 60%;
     margin-left: 20%;
@@ -47,6 +47,10 @@ body {
   border-radius: 5px;
   background-color: #fff;
   padding: 10px;
+}
+
+.container{
+  max-width: 1200px;
 }
 
 .blackBackground {
