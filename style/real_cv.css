@@ -20,6 +20,29 @@ body {
   .myContainer {
     border: 1px solid black;
   }
+  #triangle {
+    
+  }
+  #mesMotivations {
+    border: 1px solid black;
+    padding: 20px;
+    background-color: white;
+  }
+
+  .carrouselContent {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 10px;
+  }
+  .carousel-control-prev{
+    visibility: hidden;
+  }
+  .carousel-control-next{
+    visibility: hidden;
+  }
+  
 }
 
 @media all and (orientation:landscape) {
@@ -31,6 +54,35 @@ body {
     background-color: rgba(254, 254, 254, 1);
     border: 1px solid black;
   }
+  #triangle {
+    background: linear-gradient(
+      135deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(255, 255, 255, 1) 50%,
+      rgba(0, 0, 0, 1) 51%,
+      rgba(0, 0, 0, 1) 100%
+    );
+  
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+  }
+  #mesMotivations {
+    border: 1px solid black;
+    padding: 20px;
+  }
+
+  .carrouselContent {
+    width: 60%;
+    margin-left: 20%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 10px;
+  }
+  
 }
 
 @keyframes gradient {
@@ -47,14 +99,7 @@ body {
   }
 }
 
-.carrouselContent {
-  width: 60%;
-  margin-left: 20%;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  background-color: #fff;
-  padding: 10px;
-}
+
 
 .container{
   max-width: 1200px;
@@ -98,24 +143,8 @@ h5 {
   height: 400px;
 }
 
-#mesMotivations {
-  border: 1px solid black;
-  padding: 20px;
-  background-color: white;
-}
 
-#triangle {
-  background: linear-gradient(
-    135deg,
-    rgba(255, 255, 255, 0) 0%,
-    rgba(255, 255, 255, 0) 50%,
-    rgba(0, 0, 0, 1) 51%,
-    rgba(0, 0, 0, 1) 100%
-  );
 
-  position: absolute;
-  height: 50px;
-  width: 50px;
-  border-bottom: 1px solid black;
-  border-right: 1px solid black;
-}
+
+
+
