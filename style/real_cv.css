@@ -79,3 +79,25 @@ h1{text-align: center;
   .alinea{
     text-indent: 40px; 
   }
+
+  .carousel-inner{
+    padding: 10px;
+    padding-top:30px;
+    height:400px;
+  }
+
+  #mesMotivations{
+    border:1px solid black;
+    padding:20px;
+  }
+
+  #triangle{
+    background-color:white;
+    background: linear-gradient(135deg, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 50%,rgba(0,0,0,1) 51%, rgba(0,0,0,1) 100%);
+
+    position:absolute;
+    height:50px;
+    width:50px;
+    border-bottom:1px solid black;
+    border-right:1px solid black;
+  }
