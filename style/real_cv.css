@@ -15,8 +15,7 @@ body {
 
 @media all and (orientation: portrait) {
   .center60 {
-    width: 100%;
-    margin-left: 0%;
+    width: 100%
   }
 }
 
