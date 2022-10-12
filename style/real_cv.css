@@ -17,12 +17,19 @@ body {
   .center60 {
     width: 100%
   }
+  .myContainer {
+    border: 1px solid black;
+  }
 }
 
 @media all and (orientation:landscape) {
   .center60 {
     width: 60%;
     margin-left: 20%;
+  }
+  .myContainer {
+    background-color: rgba(254, 254, 254, 1);
+    border: 1px solid black;
   }
 }
 
@@ -57,10 +64,7 @@ body {
   background-color: black;
 }
 
-.myContainer {
-  background-color: rgba(254, 254, 254, 1);
-  border: 1px solid black;
-}
+
 .navbar-brand {
   margin: auto;
 }
