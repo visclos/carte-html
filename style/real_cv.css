@@ -42,6 +42,9 @@ body {
   .carousel-control-next{
     visibility: hidden;
   }
+  .boutonMotivation{
+    visibility: hidden;
+  }
   
 }
 
