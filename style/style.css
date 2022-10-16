@@ -3,6 +3,10 @@
   filter: saturate(0) contrast(50);
 }
 
+.bw2 {
+  filter:  contrast(5);
+}
+
 
 /* fond écran */
 body {
