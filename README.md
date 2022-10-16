@@ -1,15 +1,21 @@
 ## Mon premier Readme
-Bonjour.
+
+### Bonjour.
 Ce site est ma première carte virtuelle un projet d'étude formation.
-Vous pouvez le retrouver a l'adresse url: https://comfy-squirrel-303a13.netlify.app/
+
+Vous pouvez le retrouver a l'adresse url: 
+https://comfy-squirrel-303a13.netlify.app/
+
+
 J'ai créé ce site comme élément d'application d'un cours que je suivais en parallèle sur OpenClassRoom.
 Un professionnel indépendant m'as accompagné dans cette démarche.
 
 Pour la partie HTML:
-en premiers lieux j'ai donc créé mon document en type HTML et défini la langue : Français.
-J'ai ensuite créé un document Css que j'ai incorporé dans mon HTML.
-J'ai ensuite voulu mettre une image de fond. Avec les conseiles du professionnel j'ai finalement changé l'image de fond pour mettre un background animé que le professionnel m'a appris à créer sur css.
-Pour finir j'ai donné mon nom à mon site.
+
+- en premiers lieux j'ai donc créé mon document en type HTML et défini la langue : Français.
+- J'ai ensuite créé un document Css que j'ai incorporé dans mon HTML.
+- J'ai ensuite voulu mettre une image de fond. Avec les conseiles du professionnel j'ai finalement changé l'image de fond pour mettre un background animé que le professionnel m'a appris à créer sur css.
+- Pour finir j'ai donné mon nom à mon site.
 
 Dans le corps de ma page nous retrouvons une balise générique de type bloc qui me permet de centrer mon site sur un écran plus grand qu'un mobile.
 Nous retrouvons ensuite une balise générique de type bloc avec des liens principaux de navigation en haut de l'écran pour souhaiter la bienvenue au visiteur.
@@ -32,21 +38,3 @@ Avec les @médias  orientation portrait nous pouvons afficher notre site différ
 Tandis que avec les @médias landscape nous avons notre affichage d'origine pour un écran de type ordinateur.
 
 Enfin nous retrouvons des "Class" qui nous permettent de structurer ma mise en page de site et de donner de la couleur à mes fonds, nous retrouvons la fonction scroll-behavior: smoothe; qui permet un défilement plus fluide (trouvée sur internet.)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-`<Programmeur class="Prenom">Clovis</>`
-
-`<Programmeur class="Language">HTML</>`
