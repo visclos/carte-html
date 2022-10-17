@@ -10,6 +10,9 @@ https://comfy-squirrel-303a13.netlify.app/
 J'ai créé ce site comme élément d'application d'un cours que je suivais en parallèle sur OpenClassRoom.
 Un professionnel indépendant m'as accompagné dans cette démarche.
 
+
+
+ 
 Pour la partie HTML:
 
 - en premiers lieux j'ai donc créé mon document en type HTML et défini la langue : Français.
