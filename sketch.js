@@ -79,3 +79,18 @@ if (x<=0){mort=1}
       sensY=0;
     }
   }
+
+  var lasers = [];
+  var framesToNextFire = 0;
+  if(keyboard[32]) {
+    // only fire one laser
+    if(!keyboard.fired) {
+        if ( framesToNextFire <=0 ) {
+            fireLaser();
+            keyboard.fired = true;
+            framesToNextFire = 60;
+        }
+    } else {
+        keyboard.fired = false;
+    }
+}
