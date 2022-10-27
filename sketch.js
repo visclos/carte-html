@@ -7,7 +7,7 @@ function setup() {
   var y=80;
   var sensY=0;
   var sensX=0;
-  var vitesse=1;
+  var vitesse=3;
   var ennemiX=0;
     var ennemiY=0;
     var size=50;
@@ -20,8 +20,8 @@ var newEnnemiY=0;
       ennemiY=random(0,windowHeight-50);
     }
     function positionNewEnnemi(){
-      newEnnemiX=random(0,windowWidth-50);
-      newEnnemiY=random(0,windowHeight-50);
+      newEnnemiX=random(0,windowWidth-60);
+      newEnnemiY=random(0,windowHeight-60);
     }
     
 
@@ -67,8 +67,35 @@ if (y<=0){mort=1}
 if (x+size>=windowWidth-50){mort=1}
 if (x<=0){mort=1}
 
+if(x-size/2< newEnnemiX+size/2 && 
+  x+size/2>newEnnemiX-size/2 &&
+  y-size/2 < newEnnemiY+size/2 &&
+  y+size/2 > newEnnemiY -size/2
+){
+  positionEnnemi();
+  score= score +1;
+  vitesse = vitesse+ 1;
+  newEnemi = newEnnemi +1;
+  
+}
+
+
+    
+    fill(0,255,0);
+    rect (newEnnemiX,newEnnemiY,size,size);
+
+if (y+size>=windowHeight-50){mort=1}
+if (y<=0){mort=1}
+if (x+size>=windowWidth-50){mort=1}
+if (x<=0){mort=1}
+
+
 
   }
+
+
+  
+  
 
   function keyPressed() {
     if (keyCode === DOWN_ARROW) {
