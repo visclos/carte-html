@@ -72,7 +72,7 @@ if(x-size/2< newEnnemiX+size/2 &&
   y-size/2 < newEnnemiY+size/2 &&
   y+size/2 > newEnnemiY -size/2
 ){
-  positionEnnemi();
+  positionNewEnnemi();
   score= score +1;
   vitesse = vitesse+ 1;
   newEnemi = newEnnemi +1;
