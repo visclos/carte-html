@@ -13,11 +13,17 @@ function setup() {
     var size=50;
   var score = 0;
   var mort =0;
-
+var newEnnemiX=0;
+var newEnnemiY=0;
     function positionEnnemi(){
       ennemiX=random(0,windowWidth-50);
       ennemiY=random(0,windowHeight-50);
     }
+    function positionNewEnnemi(){
+      newEnnemiX=random(0,windowWidth-50);
+      newEnnemiY=random(0,windowHeight-50);
+    }
+    
 
   function draw() {
     if(mort==1){
@@ -47,6 +53,7 @@ if(x-size/2< ennemiX+size/2 &&
   positionEnnemi();
   score= score +1;
   vitesse = vitesse+ 1;
+  newEnemi = newEnnemi +1;
   
 }
 
@@ -80,17 +87,3 @@ if (x<=0){mort=1}
     }
   }
 
-  var lasers = [];
-  var framesToNextFire = 0;
-  if(keyboard[32]) {
-    // only fire one laser
-    if(!keyboard.fired==A) {
-        if ( framesToNextFire <=0 ) {
-            fireLaser();
-            keyboard.fired = true;
-            framesToNextFire = 60;
-        }
-    } else {
-        keyboard.fired = false;
-    }
-}
