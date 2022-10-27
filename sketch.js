@@ -84,7 +84,7 @@ if (x<=0){mort=1}
   var framesToNextFire = 0;
   if(keyboard[32]) {
     // only fire one laser
-    if(!keyboard.fired) {
+    if(!keyboard.fired==A) {
         if ( framesToNextFire <=0 ) {
             fireLaser();
             keyboard.fired = true;
