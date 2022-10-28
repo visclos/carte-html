@@ -53,7 +53,10 @@ if(x-size/2< ennemiX+size/2 &&
   newEnemi = newEnnemi +1;
   
 }
-
+function positionNewEnnemi(){
+  newEnnemiX=random(0,windowWidth-60);
+  newEnnemiY=random(0,windowHeight-60);
+}
 
     
     fill(0,255,0);
