@@ -19,7 +19,10 @@ var newEnnemiY=0;
       ennemiX=random(0,windowWidth-50);
       ennemiY=random(0,windowHeight-50);
     }
-   
+    function positionNewEnnemi(){
+      newEnnemiX=random(0,windowWidth-60);
+      newEnnemiY=random(0,windowHeight-60);
+    }
     
 
   function draw() {
@@ -53,14 +56,12 @@ if(x-size/2< ennemiX+size/2 &&
   newEnemi = newEnnemi +1;
   
 }
-function positionNewEnnemi(){
-  newEnnemiX=random(0,windowWidth-60);
-  newEnnemiY=random(0,windowHeight-60);
-}
 
+fill(0,255,0);
+rect (newEnnemiX,newEnnemiY,size,size)
     
     fill(0,255,0);
-    rect (ennemiX,ennemiY,size,size);
+    rect (newEnnemiX,newEnnemiY,size,size);
 
 if (y+size>=windowHeight-50){mort=1}
 if (y<=0){mort=1}
