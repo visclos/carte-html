@@ -19,10 +19,7 @@ var newEnnemiY=0;
       ennemiX=random(0,windowWidth-50);
       ennemiY=random(0,windowHeight-50);
     }
-    function positionNewEnnemi(){
-      newEnnemiX=random(0,windowWidth-60);
-      newEnnemiY=random(0,windowHeight-60);
-    }
+   
     
 
   function draw() {
